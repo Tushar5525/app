@@ -1,5 +1,3 @@
-Dockerfile
-root@hello-world:~/docker# cat Dockerfile
 FROM alpine:edge
 RUN apk add openjdk8
 COPY /target/app.jar /opt/
