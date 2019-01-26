@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: app1
-        image: tusharthedockerguy/app:latest
+        image: tusharthedockerguy/app:$LATEST
         imagePullPolicy: Always
         ports:
         - containerPort: 8123
