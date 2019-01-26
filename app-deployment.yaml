@@ -11,12 +11,12 @@ spec:
       application: app1
   template:
     metadata:
-      name: app1-pod
+      name: app1
       labels:
         application: app1
     spec:
       containers:
-      - name: app1-pod
+      - name: app1
         image: tusharthedockerguy/app:$LATEST
         imagePullPolicy: Always
         ports:
